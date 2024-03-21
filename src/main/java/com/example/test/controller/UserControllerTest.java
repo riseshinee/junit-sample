@@ -65,7 +65,8 @@ public class UserControllerTest {
             .name("name")
             .password("1234")
             .build();
-
+    
+    //구글에서 개발한 json 파싱 라이브러리
     Gson gson = new Gson();
     String content = gson.toJson(userDto);
 
